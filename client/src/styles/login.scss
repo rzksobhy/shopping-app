@@ -1,0 +1,43 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // 50px  - header height
+    // 200px - footer height
+    // 50px  - footer margin-top
+    min-height: calc(100vh - 50px - 50px - 200px);
+
+    input[type="text"],
+    input[type="password"] {
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        font-size: 24px;
+        border: 1px #000 solid;
+        border-radius: 7px;
+        outline: none;
+    }
+
+    div.button {
+        color: #fff;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 20px;
+        background: #14a800;
+        user-select: none;
+        cursor: pointer;
+
+        transition: background 0.3s ease-in-out;
+        &:hover {
+            background: #000;
+        }
+    }
+
+    p {
+        margin-top: 10px;
+
+        a {
+            color: #00f;
+        }
+    }
+}
