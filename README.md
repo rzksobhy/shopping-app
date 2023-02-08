@@ -11,4 +11,7 @@ if you want to get started with this project follow these steps
 cd client && yarn install && yarn run build
 ```
 
-- TODO: server
+- Setting up the server
+```bash
+cd server && yarn install && yarn run build
+```
