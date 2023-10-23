@@ -1,0 +1,53 @@
+name: shopping_app
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  go_router: ^12.0.0
+  get_it: ^7.6.4
+  flutter_bloc: ^8.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/json/
+    - assets/svgs/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Inter/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Inter/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Inter/Inter-Black.ttf
+          weight: 900
