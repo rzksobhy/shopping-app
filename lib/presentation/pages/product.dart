@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 
 class ProductPage extends StatelessWidget {
-  const ProductPage({super.key});
+  final int id;
+
+  const ProductPage({
+    super.key,
+    required this.id,
+  });
 
   @override
   Widget build(BuildContext context) {
